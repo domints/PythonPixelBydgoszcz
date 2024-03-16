@@ -1,0 +1,496 @@
+PULPIT KIEROWCY w systemie tablic pikselowych F-P  wersja 1.9y.H3
+(c) STAR Projekt  L.Starczak   1996 - 2001                       
+Bydgoszcz 2002.12.27   17:30                                     
+DATA I CZAS         
+KASOWNIKI           
+ZAPOWIEDZI S
+OWNE   
+KONFIGURACJA        
+WPIS CZASU          
+WPIS DATY           
+MRUGANIE DWUKROPKA  
+ KASOWNIK
+W    
+FORMAT NADRUKU      
+NUMER BOCZNY POJAZDU
+SKASOWANE BILETY    
+PODWY
+SZONA G
+OBNI
+ONA G
+   7
+POCZ
+TEK WY
+SZEJ G
+OSU          A
+POCZ
+TEK NI
+SZEJ G
+OSU          )
+ZESTAW TABLIC       
+PARAMETRY TABLIC    
+IDENTYFIKACJA TABLIC
+ TABLIC        
+SPRAWDZANIE ZESTAW
+CZENIE POJAZD
+W   
+CZENIA   
+R WOZU          +
+POLARYZACJA DRZWI   
+wxtz
+tEu`
+@:`5
+t xN
+t xO
+}tO ;
+"                                        [   ] MENU USTAWIE
+                     USTAWIENIA SERWISOWEWYBIERZ: [TAK] [NIE]WYBIERZ NR FUNKCJI: [1][2][3][4][5]     [1] CZAS  12:34:56  [2] DATA  1997.06.21 WPISZ NOW
+ DAT
+:        ----.--.--      WPISZ NOWY CZAS:         --:--         NOWY CZAS 12:34                         NOWA DATA 1997.06.21                    NUMER BOCZNY:  ---  (3 OSTATNIE CYFRY)   ILOSC SKASOWANYCH   BILETOW: -----      CZY WYZEROWAC       LICZNIK BILETOW?   NUMER BOCZNY   ---  ZOSTA
+ ZAPAMI
+TANY  ILO
+ TABLIC:  -    MO
+E BY
+ OD 1 DO 8  IDENT. TABLICY  --  PROSZ
+ CZEKA
+...    PARAMETRY TABLICY - PROSZ
+ CZEKA
+...    IDENTYFIKACJA TAB. -PROSZ
+ CZEKA
+...    ZLICZONO i ZAPAMI
+- TANO - TABLIC       WYBIERZ TABLIC
+...   (NIEZNANA TABLICA) WYBIERZ WARTO
+ 0..7CZY ZAPISA
+ PARAM.? CZY SPRAWDZI
+ PARA- METRY TABLICY NR - ?CZY TABLICA - JEST  NA PEWNO POD
+CZONA?NIEZROZUMIA
+A ODPO- WIED
+ TABLICY NR -  NIEZGODNE PARAM.TAB-CZY SPR
+BOWA
+ PONO- WNIE CZYTA
+ TAB. - ?PARAMETRY TABLICY - ZOSTA
+Y ZAPAMI
+TANE ILO
+ TABLIC ZOSTA
+AZAPAMI
+TANA         ILO
+ KASOWNIK
+W: --MOZE BY
+ OD 0 DO 15 G
+ ZAPOWIEDZI WYBIERZ [1][2][3][4]PODWY
+SZONA G
+POCZ
+TEK: ??:??     PODWY
+SZONA G
+KONIEC:   ??:??     PODWY
+SZONA G
+WYSOKO
+:   ?       OBNI
+ONA G
+   WYSOKO
+:   ?       POLARYZACJA SYGNA
+U DRZWI [0/1]:        MRUGANIE DWUKROPKA  (0-NIE, 1-TAK):     POJAZD SOLO [0] LUB W ZESTAWIE [1]:     KT
+RY POJAZD W ZEST.0-PIERW., 1-DRUGI:  PARAMETR ZOSTA
+     ZAPAMI
+TANY         FORMAT NADRUKU:                         FORMAT NADRUKU      ZOSTA
+ ZAPAMI
+TANY  ILO
+ KASOWNIK
+W    ZOSTA
+A ZAPAMI
+TANA B
+D ZAPISU DO      PAMI
+CI NIEULOTNEJ  STOPIEN ZGODNOSCI -: (NIEOKRESLONY)     BEZ SPRAWDZANIA     SPR. ILOSCI TABLIC  PAR. TABLIC ZGRUBNIEPAR.TABLIC DOKLADNIE (NIEOKRESLONY)      (NIEOKRESLONY)      (NIEOKRESLONY)      (NIEOKRESLONY)      (NIEOKRESLONY)      (NIEOKRESLONY)      (NIEOKRESLONY)     
+"xAv
+t%xAy
+t'xAz
+txAy
+"t%xAy
+" (BRAK TABLICY)     
+p@#`!
+"NG-?
+P@Ot
+t xN
+t xO
+" .8
+t:0H
+t yN
+t yN
+}t 0>
+l"0.
+}t 0>
+t:07
+t yN
+ 7/x
+t yN
+t yN
+"2959
+t yN
+t yN
+/ @e`
+/ @Cp0
+?stx
+I0C4 D1
+0C4 D1
+4@0uQ
+2K B
+rBr8@
+unFtE
+3> ;C
+>0C< D9t
+unFtE
+4H ;C
+>0C< D9t
+0C1 D.
+unFtE
+00LKP
+"LKP
+"TIM
+"BLK
+D ODPOWIEDZI TAB-LICY  . NACI
+NIJ CO
+IJKLM
+wx1z
+wx1z
+5"                                         TPPK wersja 1.9y.H3 2002.12.27   17:30 B
+D IDENTYFIKACJI  FLASHA:                   PIXEL s.c.          BYDGOSZCZ     STEROWNIK SYSTEM
+W  INFORMACYJNYCH STR1 
+YCZYMY MI
+EJ PRACY!                    WY
+CZ PULPIT I     W
+CZ PONOWNIE      ZESTAW TABLIC:                          LINIA:                                  LINIA:     KIER.:                       L??? K?? PRZYST.: ??                     TRANSMISJA DANYCH   PROSZ
+ CZEKA
+...     PO
+CZENIE Z PC   WYBIERZ: [TAK] [NIE] CZY SKASOWA
+ STARE  DANE:   [TAK] [NIE] KASOWANIE DANYCH    PROSZ
+ CZEKA
+...                        PROSZ
+ CZEKA
+...        TRYB MASTER     PROSZ
+ CZEKA
+...        TRYB SLAVE                          PO
+CZENIE Z PC     TRANSMISJA DANYCH   KONIEC TRANSMISJI   NACI
+NIJ COKOLWIEK  B
+D TRANSMISJI --  NACI
+NIJ COKOLWIEK  B
+D PAMI
+CI FLASH  NACI
+NIJ COKOLWIEK    CZY POWT
+?   WYBIERZ: [TAK] [NIE] ODCZYT KARTY TRAS   SKOPIOWANO    0 kB  ODCZYT KARTY TRAS  WYBIERZ: [TAK] [NIE]LINIA: --- KIER.: -- WERYFIKACJA DANYCH  B
+DNA WERSJA KARTY TRAS [NACISNIJ CO
+DNE DANE KARTY   TRAS [NACISNIJ CO
+] WERYFIKACJA DANYCH  SUMA CRC POPRAWNA    DANE ZAPAMI
+TANE  B
+CZNOSCI Z    DRUGIM POJAZDEM:    TRANSMISJA DANYCH... 8
+8"  
+00TIM
+`$ `! ?
+00#RE 
+0BS0>
+00BLK
+z @d
+Ck p
+C^ p
+" KARTA TRAS ZOSTA
+A POMY
+LNIE SKOPIOWANAWY
+CZ PULPIT,WYJMIJKART
+CZ PONOWNIE  DANE KARTY TRAS   ZOSTA
+Y ZAPAMI
+TANE WY
+CZ PULPIT,WYJMIJKABEL,W
+CZ PONOWNIE
+@Md:p
+E"@D
+E"@>
+E"@8
+E"@2
+E",p
+Fk@ 
+Fk@!
+Fk@7
+Fk@ 
+Fk@;
+Fk@ 
+T?D@
+"  BRAK KOMUNIKACJI  Z PAMI
+ NIEULOTN
+H.@(
+uI(uK<
+"POWTARZANIE
+D"uM
+="0=Q
+="  
+05ANV
+;"x>
+ Qt@
+< Ql@w
+N@u 
+N?u 
+ Q @+
+<@&T
+ Q[@f
+<@apR
+<@T 
+<@IT
+<@6T
+IWuI
+Ak0:1
+ytzQx
+"KARTA TRAS
+SE@=
+DNE DANE LINII   B
+DNE DANE KIERUNKUB
+DNE DANE  (--/--)TABLICE SPECJALNE   NIE MA TAKIEJ LINII WYB
+R NUMERU LINII  NIE MA TAKIEGO KIER.BRAK DANYCH PRZYST.     TEST  TABLIC    
+N'u 4
+/E0p
+"u A
+/E0p
+dKp?
+dRp6
+@!u D
+"LINIA: --- KIER.: -- WERYFIKACJA DANYCH 
+Bu P
+u U$
+u 4@?t %
+@!u 
+e%u 
+"CYFRY
+01SAT"
+9t %A
+/E0p
+Zo '
+t0yu
+t yN
+D TRANSMISJI: ?? TABLICA NR ?        
+t0yu
+t yN
+"GID
+3$ %7
+>x=t
+t yN
+"DDA 
+DDB 
+DPM 
+u " 
+u $ 
+3$ %7
+D S!
+<E;E:
+:U;U;$
+0qdu<
+"WERYFIKACJA PAMI
+CI PO KASOWANIU ---- KB0p
+e~t%
+jXu:
+p}u3
+31u3
+p)x3z
+/ `
+/L`
+KOPIOWANIE DANYCH   ZAKO
+CZONE POMY
+LNIEKARTA NIEPRAWID
+OWO WETKNI
+TA W Z
+CZE   B
+D ZAPISU DO      PAMI
+CI FLASH      TA WERSJA KARTY TRASNIE JEST OBS
+UGIWANAKOPIOWANIE DANYCH   ZOSTA
+O ANULOWANE   NIE WYBRANO 
+ADNEGO ZESTAWU DANYCH      W KARCIE TRAS NIE MAODP. ZESTAWU DANYCH  NIEW
+CIWA WERSJA LUB USZKODZONA KARTAB
+D IDENTYFIKACJI  WEWN. PAMI
+CI FLASH ZESTAW NR -- (- TAB)                    CZY ZA
+ADOWA
+ ZESTAW--------------------CZY WERYFIKOWA
+ DANE--------------------DANE Z KARTY PAMI
+CINIE ZOSTA
+Y WCZYTANE CZY SKASOWA
+ STARE  DANE:   [TAK] [NIE] KASOWANIE DANYCH    PROSZ
+ CZEKA
+...    ODCZYT KARTY TRAS   SKOPIOWANO    0 kB WY
+CZ PULPIT,WYMIE
+KART
+CZ PONOWNIEWY
+CZ PULPIT,WYJMIJKART
+CZ PONOWNIE   NIEPRAWID
+OWO    WETKNI
+TA KARTA TRASWY
+CZ PULPIT,POPRAWKART
+CZ PONOWNIEWY
+CZ PULPIT, ZG
+D DO SERWISU     
+"KARTA TRAS
+pa@c
+@KtS
+ON` 
+P8D@
+%gPE
+h4?T
+3"u1
+_j p
+x]yxz/{o
+x5yxz/{o
+"CZY CZYTA
+ Z KARTY ?[TAK][NIE] [1]-OPCJEZESTAW   -TABLICOWY  NIEW
+CIWE DANE W  KARCIE PAMI
+CI!     NIEW
+CIWA WERSJA LUB USZKODZONA KARTA
+ADOWANIE KARTY TRASWYBIERZ ZESTAW TABL.
+ADOWANIE KARTY TRASZOSTALO ANULOWANE   
+"Karta pami
+ci KPS
+"KARTA TRAS
+" CZY ZWERYFIKOWA
+ ? WYBIERZ: [TAK] [NIE]    B
+DNE DANE       KARTY PAMI
+CI !!!  WCZYTYWANIE KARTY   TRAS  PRZERWANE!       Z
+A SUMA CRC        NACI
+NIJ CO
+      SUMA KONTROLNA CRC       POPRAWNA      NIEW
+CIWA  ILO
+  TABLIC. NACI
+NIJ CO
+ KARTA NIE ZAWIERA  SUMY KONTROLNEJ CRC  WERYFIKACJA DANYCH  ZOSTA
+A PRZERWANA  
+! B0c@
+2s"RR
+$b4C
+6S&r
+P:3*
+@%pF`g
+bwrV
+tfdGT$D
+fWvvF
+XDHex
+JuZTj7z
+\dLE<
+~6NU^t.
+CONFIG:       
+POWTARZANIE=3     ;ile razy rozkaz jest powtarzany            
+CYFRY=2           ;ilosc cyfr na wyswietlaczu 7-segm.         
+                  ;$ przed liczba oznacza liczbe HEX          
+M#LC
+MTIM
+MBLK_NLKP
+  --- LISTA ROZKAZOW ---
+#FI              - lancuch identyfikacyjny urzadzenia
+#LC              - lista rozkazow
+TIM              - odbior daty i czasu
+BLK              - ustawienie zadania blokady
+LKP              - Linia, Kierunek, Przystanek
+y t0
+U"0Z
+U"C^
+U"0T
+ XJ0
+aoua
+a#ua
+"0Tn Wk Yh0\,
+w \Yt
+^T`
+St$x
+"PODAJ NR DNIA:      OSTATNIO BY
+        PODAJ NR DNIA:      OSTATNIO BY
+        PODAJ NR KURSU:     OSTATNIO BY
+        PODAJ NR STREFY:    OSTATNIO BY
+A       PODAJ DWIE PIERWSZE CYFRY NA BILET:     
+[t K
+FORMATY NADRUKU NA BILETACH
+0 - miesiac:1,dzien:2,nr_boczny:3,godz:2,minuta:2  (BYDGOSZCZ) 
+1 - nr_boczny:3,dzien_roku:3,godz:2,minuta:2       (KRAKOW)    
+2 - dzien:2,miesiac:2,nr_boczny:2,godz:2,minuta:2  (LEGNICA)   
+3 - ustawiane:2,dzien_roku:3,nr_boczny:1,godz:2,min:2 (OLSZTYN)
+4 - nr_boczny:2,dzien:2,miesiac:2,godz:2,minuta:2  (GDYNIA)    
+5 - nr_boczny:2,miesiac:2,dzien:2,godz:2,minuta:2  (ST. WOLA)  
+6 - nr_boczny:2,dzien:2,nr_linii:2,godz:2,minuta:2 (STARGARD SZCZ.)
+7 - nr_boczny:3,miesiac:1,dzien:2,godz:2,minuta:2  (CZELADZ) 
+8 - ustawiane:1,nr_boczny:3,dzien:2,godz:2,minuta:2 (PULAWY) 
+9 - ustawiane:1,nr_boczny:2,dzien:2,miesiac:1,godz:2,minuta:2 (N.SACZ) 
+10..19 - [bmp] + jak 0..9  (PROBNY)
+20 - nr_linii:3,nr_boczny:3,rok:2,m-c:2,dzien:2,spacja:1,godz:2,minuta:2
+21 - nr_linii:3,nr_boczny:3,dzien:2,m-c:2,rok:2,spacja:1,godz:2,minuta:2
+22 - strefa:1,nr_boczny:1,dzien:2,kurs:2,godz:2,minuta:2
+23 - strefa:1,dzien:1,dzien_roku:3,nr_boczny:1,godz:2,min:2
+24 - strefa:1,nr_boczny:1,dzien:2,kurs:2,godz:2,minuta:2
+MDDNNNczas BYDGOSZCZ
+NNNDDDczas  KRAK
+DDMMNNczas  LEGNICA 
+XYDDDNczas  OLSZTYN 
+NNDDMMczas  GDYNIA  
+NNMMDDczas  ST.WOLA 
+NNDDLLczas  STARGARD
+NNNMDDczas  CZELAD
+SNNNDDczas  PU
+AWY  
+SNNDDMczas  N. S
+[logo]MDDNNNczas    
+[logo]NNNDDDczas    
+[logo]DDMMNNczas    
+[logo]XYDDDNczas    
+[logo]NNDDMMczas    
+[logo]NNMMDDczas    
+[logo]NNDDLLczas    
+[logo]NNNMDDczas    
+[logo]SNNNDDczas    
+[logo]SNNDDMczas    
+LLLNNNRRMMDD czas   
+LLLNNNDDMMRR czas   
+SNDDKKczas          
+SKDDDNczas          
+SNDDKKczas          
+L9 J
+Z`)C
+1 L$0J+
+L0J
+"0Md
+M"x[z
+" P S
+ P7 S4
+ n;^
+Qkkbal
+i]Wb
+9a&g
+MGiI
+wn>Jj
+#.zf
++o*7
+t yN
+t0yu
+t0yu
+ly@x"
+D@x 
+" (c) Lech Starczak       1996 - 2001    
+  h(
+0kt
+eD3P
+" WERYFIKACJA DANYCH  SPRAWDZONO    0 kB CZY CHCESZ PRZERWAC?WYBIERZ: [TAK] [NIE]
+1)1010110101
+"07"00
+n`6un
+melp
+np!un
+eunF
+n`6un
+melp
+np!un
+eunF
+"12~K4~B35A68N97T.0PRLZU~~F~ES~OGD~~~~C0~~~12~XK4~YB35PA68ON97~T.0~PRL~
+                                 !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+        
+    
+      
+     
+~             
+                                  
+                    
+      
+0_> ?;
+`"  
+60TLF 
+t yN
+"0_% ?"0J
+U"TLF
+d=pfx
