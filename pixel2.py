@@ -30,12 +30,32 @@ data = '110000000000000000000000000000000000000000000000000000000000000000000000
 import time
 from pixel import Pixel
 
-px = Pixel('/dev/cu.usbmodem55860074291')
+px = Pixel('/dev/tty.wchusbserial55860074291')
 px.open()
-px.send_sat()
-px.send_sat()
-px.send_sat()
-px.delete_page(1, '01FF5F')
+datablock = px.create_data_block(px.get_image_data('ts100noga.bmp', invert=True))
+px.display_data_block(0, datablock)
+
+time.sleep(0.1)
+
+datablock = px.create_data_block(px.get_image_data('hacked.png', invert=True, page=1))
+px.display_data_block(0, datablock)
+
+time.sleep(0.1)
+
+datablock = px.create_data_block(px.get_image_data('krakow.png', invert=True, page=2))
+px.display_data_block(0, datablock)
+time.sleep(15)
+print("wooohooo")
+px.delete_all_pages(0)
+datablock = px.create_data_block(px.get_image_data('papa.png', invert=False))
+px.display_data_block(0, datablock)
+time.sleep(0.2)
+datablock = px.create_data_block(px.get_image_data('ts100viron.bmp', invert=True, page=1))
+px.display_data_block(0, datablock)
+# px.send_sat()
+# px.send_sat()
+# px.send_sat()
+# px.delete_page(1, '01FF5F')
 
 exit()
 #px.delete_page(2, '01FF5F')

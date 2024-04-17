@@ -181,10 +181,24 @@ class Pixel:
         for i in range(0, 3):
             self.send_dbl_space()
             self.serial.write(b'__\x0101SAT" 1"\r\n\x04')
-            time.sleep(0.2)
 
     def delete_page(self, displayNo: int, page: str):
         '''Doesn't work unfortunately... yet.'''
         self.send_command(displayNo, 'DPM {}'.format(page))
+        resp = self.read_response()
+        self.check_response(resp, displayNo)
+
+    def delete_all_pages(self, displayNo: int):
+        self.send_sat()
+        self.send_sat()
+        self.send_sat()
+        self.send_space()
+        self.serial.write(b'_')
+        self.serial.write([0x01])
+        self.serial.write(b'2')
+        self.serial.write(bytes([displayNo + 0x30]))
+        self.serial.write('DPM 01FF57'.encode('utf-8'))
+        self.serial.write(b'\r\n')
+        self.serial.write([0x04])
         resp = self.read_response()
         self.check_response(resp, displayNo)
