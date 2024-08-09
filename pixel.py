@@ -11,8 +11,17 @@ except ModuleNotFoundError:
 
 class Pixel:
     base_full = bytes.fromhex('B7000001010001AE0000003054')
-    def __init__(self, serialPort: str) -> None:
+    def __init__(self, serialPort: str, dePin: int | None = None) -> None:
         self.portName = serialPort
+        if dePin is not None:
+            from gpiozero import DigitalOutputDevice
+            from gpiozero.pins.native import NativeFactory
+            self.dePin = DigitalOutputDevice(dePin, pin_factory=NativeFactory())
+            self.beforeWrite = self.gpio_set
+            self.afterWrite = self.gpio_reset
+        else:
+            self.beforeWrite = self.gpio_null
+            self.afterWrite = self.gpio_null
         pass
 
     def open(self) -> bool:
@@ -29,6 +38,7 @@ class Pixel:
     def send_command(self, displayNo: int, command: str) -> bool:
         if displayNo < 0 or displayNo > 7:
             raise ValueError('Display number is out of supported range (0-7)')
+        self.beforeWrite()
         self.send_space()
         time.sleep(0.05)
         self.serial.write(b'_')
@@ -38,7 +48,8 @@ class Pixel:
         self.serial.write(command.encode('utf-8'))
         self.serial.write(b'\r\n')
         self.serial.write([0x04])
-        pass
+        self.serial.flush()
+        self.afterWrite()
 
     def read_response(self, timeout: int = 3) -> bytes:
         orig_timeout = self.serial.timeout
@@ -73,6 +84,7 @@ class Pixel:
         return respString
 
     def set_validators_block(self, blocked: bool) -> None:
+        self.beforeWrite()
         for i in range(0, 3):
             self.send_dbl_space()
             self.serial.write(b'__\x0100BLK')
@@ -80,6 +92,9 @@ class Pixel:
                 self.serial.write(b'01F1\r\n\x04')
             else:
                 self.serial.write(b'0071\r\n\x04')
+
+        self.serial.flush()
+        self.afterWrite()
 
 
     def get_factory_identification(self, displayNo: int) -> str:
@@ -181,6 +196,7 @@ class Pixel:
         for i in range(0, 3):
             self.send_dbl_space()
             self.serial.write(b'__\x0101SAT" 1"\r\n\x04')
+            self.serial.flush()
 
     def delete_page(self, displayNo: int, page: str):
         '''Doesn't work unfortunately... yet.'''
@@ -189,6 +205,7 @@ class Pixel:
         self.check_response(resp, displayNo)
 
     def delete_all_pages(self, displayNo: int):
+        self.beforeWrite()
         self.send_sat()
         self.send_sat()
         self.send_sat()
@@ -200,5 +217,17 @@ class Pixel:
         self.serial.write('DPM 01FF57'.encode('utf-8'))
         self.serial.write(b'\r\n')
         self.serial.write([0x04])
+        self.serial.flush()
+        self.afterWrite()
         resp = self.read_response()
         self.check_response(resp, displayNo)
+
+    def gpio_set(self):
+        self.dePin.on()
+        pass
+
+    def gpio_reset(self):
+        self.dePin.off()
+
+    def gpio_null(self):
+        pass
